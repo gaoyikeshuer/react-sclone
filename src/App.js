@@ -1,17 +1,21 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Discover from './Components/Discover';
+import { Route, Routes } from 'react-router-dom';
+import Discover from './pages/Discover';
 
 function App() {
   return (
-    <div className="App">
+  
+   <div className="App">
       Hello 
      <Routes>
-      <Route>
-        
+      <Route path='/' element={<Discover/>}>
+
       </Route>
      </Routes>
     </div>
+
+   
+ 
   );
 }
 
