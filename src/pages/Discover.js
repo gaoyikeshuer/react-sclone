@@ -4,7 +4,6 @@ import SongCard from '../Components/SongCard'
 import { useGetTopChartsQuery } from '../redux/services/shazamCore'
 import Loader from '../Components/Loader'
 import Error from '../Components/Error'
-import {  loading } from '../asset'
 
 const Discover = () => {
     const {data, isFetching ,error} = useGetTopChartsQuery()
