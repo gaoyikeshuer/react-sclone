@@ -10,7 +10,7 @@ function App() {
   return (
   
    <div className="relative flex">
-    <div className='flex-1 flex flex-col bg-gradient-to-br from-white to-slate-500"'>
+    <div className='flex-1 flex flex-col bg-gradient-to-br from-black to-stone-500"'>
     <div className='px-6 h-[calc(100vh)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse'>
       {/* h-[calc(100vh-72px)] that's why there is a blank at the bottom */}
         <div className='flex-1 h-fit pb-40'>
