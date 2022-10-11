@@ -5,6 +5,7 @@ import { useGetTopChartsQuery } from '../redux/services/shazamCore'
 import Loader from '../Components/Loader'
 import Error from '../Components/Error'
 import { useDispatch, useSelector } from 'react-redux'
+import MusicPlayer from '../Components/MusicPlayer'
 
 
 
@@ -34,6 +35,7 @@ const Discover = () => {
       {/* Add ? incase the data doesn't exist yet */}
         </div>
       
+      <div><MusicPlayer/></div>
     </div>
   )
 }
