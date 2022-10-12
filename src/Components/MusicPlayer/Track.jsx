@@ -2,7 +2,7 @@ import React from 'react'
 
 const Track = () => {
   return (
-    <div>Track</div>
+    <div className='flex-1 flex items-center justify-start'>Track</div>
   )
 }
 
